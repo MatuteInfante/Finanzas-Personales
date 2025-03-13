@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, Column, Integer, String, Float, Date
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
-import pandas as pd
+
 
 st.set_page_config(page_title="Finanzas Personales", page_icon="💰", layout="centered")
 
@@ -42,6 +42,7 @@ with st.form("registro_transaccion"):
 st.subheader("Historial de Transacciones")
 transacciones = session.query(Transaccion).all()
 if transacciones:
+    import pandas as pd
     datos = [
         {
             "ID": t.id,
