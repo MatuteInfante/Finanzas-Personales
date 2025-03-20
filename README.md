@@ -9,10 +9,10 @@ En este caso cree una aplicación de escritorio apoyada por **StreamLit** la cua
 - **[Pandas](https://pandas.pydata.org/)** - Librería para manipulación de datos.
 
 ## 📝 Características de la aplicación
-- ✔️ Registrar ingresos y gastos con descripción.
-- ✔️ Visualizar el historial de transacciones en una tabla interactiva.
-- ✔️ Resumen financiero automático con ingresos, gastos y balance.
-- ✔️ Interfaz sencilla y fácil de usar basada en Streamlit.
+-✔️ Registrar ingresos y gastos con descripción.
+-✔️ Visualizar el historial de transacciones en una tabla interactiva.
+-✔️ Resumen financiero automático con ingresos, gastos y balance.
+-✔️ Interfaz sencilla y fácil de usar basada en Streamlit.
 
 ## 🌟 Agradecimientos
 Gracias por probar Finanzas Personales. ¡Si te gustó el proyecto, no olvides darle una ⭐ en GitHub!
